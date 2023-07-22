@@ -1,0 +1,49 @@
+button {
+  border-radius: 100%;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-family: "Dancing Script", cursive;
+  font-size: 30px;
+  color: white;
+}
+img {
+  border: 5px solid white;
+  border-radius: 100%;
+  width: 180px;
+  transition-duration: 100ms;
+}
+#breakfast {
+  margin-top: 40px;
+  margin-left: 500px;
+  margin-bottom: 10px;
+}
+#dinner {
+  margin-left: 150px;
+  margin-right: 30px;
+}
+#snacks {
+  margin-left: 500px;
+  margin-bottom: 25px;
+}
+#name {
+  margin-top: 40px;
+  font-size: 60px;
+  margin-left: 50px;
+  margin-right: 90px;
+}
+#line {
+  display: flex;
+}
+body {
+  border: 5px solid aliceblue;
+  height: 90%;
+  width: 98%;
+  color: white;
+  font-family: "Dancing Script", cursive;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(/images/background.jpeg) center/cover fixed no-repeat;
+}
+img:hover {
+  transform: translate(10px, 10px);
+}
